@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Girassol&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="search">
+      <div class="container">
+        <form name="newsControl">
+          <span class="card-title">Search news</span>
+          <div class="input-field">
+            <select name="country" id="country">
+              <option value="ru">Russian</option>
+              <option value="us">United States</option>
+            </select>
+            <label>Choose country</label>
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="autocomplete-input"
+              class="autocomplete"
+              name="search"
+            />
+            <label for="autocomplete-input">Search</label>
+          </div>
+          <div class="card-action">
+            <button
+              class="btn waves-effect waves-light"
+              type="submit"
+              name="action"
+            >
+              Search
+              <i class="material-icons right">search</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="news-container">
+      <div class="container">
+        <div class="rows grid-container"></div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

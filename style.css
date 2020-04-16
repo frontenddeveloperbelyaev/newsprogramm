@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.search {
+  padding-top: 45px;
+}
+.search .container form {
+  padding: 20px;
+  border: 1px solid darkmagenta;
+  border-radius: 10px;
+}
